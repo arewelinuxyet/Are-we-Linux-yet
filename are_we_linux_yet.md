@@ -14,6 +14,7 @@ This project is meant to keep track of the viability of the (GNU/)Linux desktop 
 * [Office](#office)
 * [Recording](#recording)
 * [Gaming](#gaming)
+    * [Note: WINE Is Not an Emulator](#note-wine-is-not-an-emulator)
 * [Art](#art)
 * [Technical](#technical)
 * [Appendix](#appendix)
@@ -105,6 +106,9 @@ ALSA (Advanced Linux Sound Architecture) is the one audio driver on Linux, but u
 | Non-Steam (Single Player) | Hit or miss, usually hit | |
 | Game Controllers (Wireless) | Hit or miss | |
 | Multiplayer | Increasingly more gatekept by vendors | Due to the increasing adoption of kernel-level anti-cheat, which will never be supported for several reasons: it's unenforceable with Free Software, the kernel just isn't the place for an arms race, and programs shouldn't have direct access to the computer's inner sanctum without a very good reason |
+
+### Note: WINE Is Not an Emulator
+WINE (short for "WINE Is Not an Emulator") is the program that allows Windows software (nowadays mostly games) on (GNU/)Linux, and, despite how much some software houses might like to claim, WINE is not an emulator, it's a compatibility layer, and it's plain to see to everyone who has even a vague idea that emulation leaves a ton of performance on the table, while games run through WINE at near-native performance. Valve's Proton is a software bundle that's mostly WINE with experimental patches, together with a wrapper that makes it nicer to use for Steam games.
 
 
 ## Art
