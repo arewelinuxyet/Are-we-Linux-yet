@@ -55,7 +55,7 @@ Your graphical session can use one of two protocols to display itself: X11 and W
 | HDR | Compositor dependant (Wayland) / Not planned (X11) | On Wayland, it's the same exact protocol as ICC profiles, support will improve at the same rate |
 | Lock Screen | Secure (Wayland) / Hack (X11) | |
 | Screen Saver | Theoretical (Wayland) / Supported (X11) | It's possible to make a screen saver on Wayland by using the same protocol as the lock screen, but nobody seems to care enough to actually do it |
-| Fractional Scaling | Needs work (Wayland) / Bad (X11) | Mostly, it's GTK apps need work at the toolkit level |
+| Fractional Scaling | Needs work (Wayland) / Bad (X11) | Mostly, it's GTK apps that need work at the toolkit level, but GTK is also the most popular toolkit |
 
 
 ## Misc Audio Things
@@ -89,7 +89,7 @@ ALSA (Advanced Linux Sound Architecture) is the one audio driver on Linux, but u
 | Use Case | Readiness | Notes |
 | :------- | :---------| :-----|
 | Screen | Comparable to Windows | A guy left OBS because it doesn't use the GPU efficiently on Linux and started GPU Screen Recorder, use that |
-| Window | Comparable to Windows | - Individual window capture isn't supported on wlroots-based Wayland compositors < BR /> - Some closed source chat programs (namely Discord) may still be using an ancient version of Electron than doesn't support individual window capture on Wayland |
+| Window | Comparable to Windows | - Individual window capture isn't supported on wlroots-based Wayland compositors - Some closed source chat programs (namely Discord) may still be using an ancient version of Electron than doesn't support individual window capture on Wayland |
 | Webcam | Possible hardware incompatibility | Webcams are generally supported, as long as they are standards compliant |
 | Microphone | Possible hardware incompatibility | USB microphones, audio interfaces, and mixers are supported as long as they are standards compliant |
 | Streaming | Needs work | The choice is between OBS, which is inefficient, and GPU Screen Recorder, which lacks scenes and compositing |
