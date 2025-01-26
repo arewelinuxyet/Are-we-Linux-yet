@@ -70,7 +70,7 @@ Your graphical session can use one of two protocols to display itself: X11 and W
 | Surround | Needs work | |
 
 ### Note: the audio stack
-ALSA (Advanced Linux Sound Architecture) is the one audio driver on Linux, but using it directly, without painstaking manual configuration, is extremely difficult and not even supported by all applications. Applications, instead, interface with a sound server running on top of ALSA, historically PulseAudio for general audio and Jack for low latency audio, but PipeWire can easily handle mixed latency audio, as well as running both a PulseAudio and a Jack server and has taken over both.
+ALSA (Advanced Linux Sound Architecture) is the one audio driver on Linux, but using it directly, without painstaking manual configuration, is extremely limited and not even supported by all applications. Applications, instead, interface with a sound server running on top of ALSA, historically PulseAudio for general audio and Jack for low latency audio, but PipeWire can easily handle mixed latency audio, and is a drop-in replacement for both.
 
 
 ## Office
