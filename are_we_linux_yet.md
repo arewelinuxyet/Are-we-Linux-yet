@@ -103,6 +103,7 @@ ALSA (Advanced Linux Sound Architecture) is the one audio driver on Linux, but u
 | Steam (Single player) | Comparable to Windows | It just needs the extra step of enabling Proton Experimental and you're good to go |
 | Retrogaming/Emulation | Comparable to Windows | |
 | Game Controllers (Wired) | Supported | |
+| Virtual Reality | Supported | |
 | Non-Steam (Single Player) | Hit or miss, usually hit | |
 | Game Controllers (Wireless) | Hit or miss | |
 | Multiplayer | Increasingly more gatekept by vendors | Due to the increasing adoption of kernel-level anti-cheat, which will never be supported for several reasons: it's unenforceable with Free Software, the kernel just isn't the place for an arms race, and programs shouldn't have direct access to the computer's inner sanctum without a very good reason |
@@ -148,7 +149,7 @@ WINE (short for "WINE Is Not an Emulator") is the program that allows Windows so
 - There may still be graphical glitches on Wayland with the proprietary drivers, but they've been mostly fixed by the 565 driver.
 
 #### GNOME
-GNOME on Wayland does not support drawing borders, drop shadows, title bars, etc. (or, in short "Decorations"): it expects the window to draw them by itself (client-side decorations). As you may imagine, this "design choice" (read "Obvious bug they won't fix no matter how much people complain at their doorstep") is controversial because it leads to windows that do not support client-side decorations being drawn without any decorations.
+GNOME on Wayland does not support drawing borders, drop shadows, title bars, etc. (or, in short "Decorations"): it expects the window to draw them by itself (client-side decorations). As you may imagine, this "design choice" (read "Obvious bug they won't fix no matter how much people complain at their doorstep") is controversial because it leads to windows that do not support client-side decorations being drawn without any decorations. GNOME is also a desktop that very much lets perfect be the enemy of good (and thus the main responsible for the slowness of Wayland's development).
 
 ### I want to switch, what should I keep in mind?
 
