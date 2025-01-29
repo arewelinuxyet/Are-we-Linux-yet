@@ -120,10 +120,11 @@ WINE (short for "WINE Is Not an Emulator") is the program that allows Windows so
 | 3D | Comparable to Windows | As long as you like Blender |
 | Image Editing (Vector) | Comparable to Windows | As long as you like Inkscape |
 | Raw Editing | Competitive | |
+| Video Editing (Proprietary Video Editor) | Competitive | Assuming you can actually get DaVinci Resolve to work |
 | Pen Tables | Supported | |
 | Audio Production (Proprietary DAW) | Not quite there | Decent choice of DAWs, plugins are an headache |
 | Image Editing (Raster) | Destructive | GIMP is the only notable image editor. Stable is entirely destructive, experimental has non-destructive layer effects, but it still needs several workflow improvements and some tools on top of finishing the transition to a non-destructive workflow to be competitive against proprietary software |
-| Video Editing | Needs work | To make Resolve actually work you need to offer a virgin's blood to Blackmagic Design's altar at midnight altar under a red moon, I'm not counting it |
+| Video Editing (Libre Video Editor) | Needs work | |
 | Audio Production (Libre DAW, Linear) | Needs work | Quality Libre plugins are very limited, support for MIDI controllers is limited |
 | Audio Production (Libre DAW, Nonlinear) | Needs work | The only real choice of DAW is Ardour, d, and the effects workflow needs UI improvements |
 
