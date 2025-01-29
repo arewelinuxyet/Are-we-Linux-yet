@@ -154,11 +154,7 @@ GNOME on Wayland does not support drawing borders, drop shadows, title bars, etc
 ### I want to switch, what should I keep in mind?
 
 #### Do distros matter? Which one is the best?
-Distros matter, but not in the way people might think at first glance: the look and feel? While there's nothing wrong with picking defaults you like, aside of atomic (formerly "immutable") distros, such as Vanilla OS, Steam OS, or the Fedora Atomic Workstation series, where not being able to change system files without jumping through some hoops is the point, the look and feel can easily even be rebuilt from scratch by the user, some people even made it an art form and called it "ricing". Even atomic distros can be very customizable, depending on which Desktop Environment they ship.
-
-The biggest difference between the distros (aside if they're atomic or not) is by far the update cycle: some, like Debian, are glacial, and when they do update, said updates are still decently age battle-tasted software, others, like Arch, drop updates as soon as there's something that can be updated at all without much of a ceremony, so much they don't even bother with version numbers (we call them "rolling release").
-
-How much having having the newest features (and that includes hardware support) versus having a guarantee you won't see any potentially breaking updates for months, if not years, only depends on what you want, and you might even prefer different distros for different things. In other words, there's no one objectively best distro.
+See [Choosing my First Distro](choosing_my_first_distro.md)
 
 #### Linux isn't Windows
 Said like that it sounds obvious, but it can be much harder for it to sink in that it may seem at first glance: a lifetime of habits, assumptions, and conditioning doesn't go away the moment you switch to another OS. If anything, under the hood, (GNU/)Linux is more similar to Mac: the former is a (much improved, and Free as in "free speech") clone of UNIX, and the latter is a true descendant of AT&T UNIX.
