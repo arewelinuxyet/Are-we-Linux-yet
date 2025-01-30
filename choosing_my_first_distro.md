@@ -12,6 +12,19 @@ Doing something because some dude on the internet told you, without understandin
 ### I'm using Apple Silicon
 **Asahi**: Only for Apple Silicon users, and the only real choice for Apple Silicon. It's highly experimental.
 
+## Index
+<!-- vim-markdown-toc GFM -->
+
+* [What's a distro, actually?](#whats-a-distro-actually)
+* [What makes distros unique?](#what-makes-distros-unique)
+    * [Update Cycle](#update-cycle)
+    * [Traditional, Reproducible, Atomic](#traditional-reproducible-atomic)
+    * [Specificity](#specificity)
+    * [Defaults](#defaults)
+    * [Some technical stuff](#some-technical-stuff)
+
+<!-- vim-markdown-toc -->
+
 ## What's a distro, actually?
 
 Might sound obvious: whoever has made into this page probably already knows that a distro is a "version" of "Linux", right? But this is actually one of the most underasked questions out there.
