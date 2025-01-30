@@ -66,7 +66,7 @@ Your graphical session can use one of two protocols to display itself: X11 and W
 | Low Latency | Supported ( Linux >= 6.12 ) / Latency spikes (Linux <= 6.11 ) | |
 | Midi I/O | Supported | |
 | Bluetooth | May require manual configuration | |
-| General MIDI playback | Requires manual configuration | |
+| General MIDI playback | Requires manual configuration | If your use case for general MIDI is Windows/DOS games with MIDI soundtrack, good luck |
 | Surround | Needs work | |
 
 ### Note: the audio stack
