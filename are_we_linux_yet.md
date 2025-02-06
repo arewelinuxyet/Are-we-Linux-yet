@@ -145,9 +145,9 @@ WINE (short for "WINE Is Not an Emulator") is the program that allows Windows so
 ### General Notes
 
 #### NVIDIA
-- Starting from Mesa 24.1, the NVK driver is shipped by default, so, on Turing (20xx/16xx) and later cards, if you only really need to care about the proprietary drivers if you care about compute, as long as the distro ships a recent-enough version of Mesa. (The latest Debian (Debian 12) and Ubuntu LTS (Ubuntu 24.04 LTS) and derivatives have not received the update yet)
+- Starting from Mesa 24.1, the NVK driver is shipped by default, so, on Turing (20xx/16xx) and later cards, you only really need to care about the proprietary drivers if you care about compute, as long as the distro ships a recent-enough version of Mesa. (The latest Debian (Debian 12) and Ubuntu LTS (Ubuntu 24.04 LTS) and derivatives have not received the update yet)
 - It's on your distro to decide if to ship the NVIDIA proprietary drivers or not. If it's important to you, pick a distro that ships them: building them yourself takes a lot of time and it's error prone.
-- There may still be graphical glitches on Wayland with the proprietary drivers, but they've been mostly fixed by the 565 driver.
+- There may still be graphical glitches on Wayland with the proprietary drivers, but they've been mostly fixed as of the 570 driver, most of those fixes happened between the 555 and 560 drivers.
 
 #### GNOME
 GNOME on Wayland does not support drawing borders, drop shadows, title bars, etc. (or, in short "Decorations"): it expects the window to draw them by itself (client-side decorations). As you may imagine, this "design choice" (read "Obvious bug they won't fix no matter how much people complain at their doorstep") is controversial because it leads to windows that do not support client-side decorations being drawn without any decorations. GNOME is also a desktop that very much lets perfect be the enemy of good (and thus the main responsible for the slowness of Wayland's development).
