@@ -52,8 +52,8 @@ Your graphical session can use one of two protocols to display itself: X11 and W
 | :------- | :---------| :-----|
 | Variable Refresh Rate | Supported | |
 | Mixed Refresh Rate | Supported (Wayland) / Not planned (X11) | |
-| ICC Profiles | Compositor dependant (Wayland) / Supported (X11) | On Wayland only KDE Plasma fully supports ICC profiles in a stable release |
-| HDR | Compositor dependant (Wayland) / Not planned (X11) | On Wayland, it's the same exact protocol as ICC profiles, support will improve at the same rate |
+| Color Management | Supported | Implementations are still being rolled out on Wayland |
+| HDR | Supported (Wayland) / Not planned (X11) | Implementations are still being rolled out on Wayland |
 | Lock Screen | Secure (Wayland) / Hack (X11) | |
 | Screen Saver | Theoretical (Wayland) / Supported (X11) | It's possible to make a screen saver on Wayland by using the same protocol as the lock screen, but nobody seems to care enough to actually do it |
 | Fractional Scaling | Needs work (Wayland) / Bad (X11) | Mostly, it's GTK apps that need work at the toolkit level, but GTK is also the most popular toolkit |
