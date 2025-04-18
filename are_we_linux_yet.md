@@ -145,7 +145,7 @@ WINE (short for "WINE Is Not an Emulator") is the program that allows Windows so
 ### General Notes
 
 #### NVIDIA
-- Starting from Mesa 24.1, the NVK driver is shipped by default, so, on Turing (20xx/16xx) and later cards, you only really need to care about the proprietary drivers if you care about compute, as long as the distro ships a recent-enough version of Mesa. (The latest Debian (Debian 12) and Ubuntu LTS (Ubuntu 24.04 LTS) and derivatives have not received the update yet)
+- Starting from Mesa 25.1, NVK is enabled by default, making installing the proprietary drivers not as important.
 - It's on your distro to decide if to ship the NVIDIA proprietary drivers or not. If it's important to you, pick a distro that ships them: building them yourself takes a lot of time and it's error prone.
 - There may still be graphical glitches on Wayland with the proprietary drivers, but they've been mostly fixed as of the 570 driver, most of those fixes happened between the 555 and 560 drivers.
 
