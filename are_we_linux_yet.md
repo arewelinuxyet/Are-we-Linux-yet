@@ -55,8 +55,8 @@ Your graphical session can use one of two protocols to display itself: X11 and W
 | Color Management | Supported | Implementations are still being rolled out on Wayland |
 | HDR | Supported (Wayland) / Not planned (X11) | Implementations are still being rolled out on Wayland |
 | Lock Screen | Secure (Wayland) / Hack (X11) | |
+| Fractional Scaling | Mostly works (Wayland) / Bad (X11) | |
 | Screen Saver | Theoretical (Wayland) / Supported (X11) | It's possible to make a screen saver on Wayland by using the same protocol as the lock screen, but nobody seems to care enough to actually do it |
-| Fractional Scaling | Needs work (Wayland) / Bad (X11) | Mostly, it's GTK apps that need work at the toolkit level, but GTK is also the most popular toolkit |
 
 
 ## Misc Audio Things
@@ -80,7 +80,7 @@ ALSA (Advanced Linux Sound Architecture) is the one audio driver on Linux, but u
 | Word Processing | Comparable to Windows | Collaborating with Microsoft Office users may be rough |
 | Spreadsheets | Comparable to Windows | Collaborating with Microsoft Office users may be rough |
 | Presentations | Comparable to Windows | Collaborating with Microsoft Office users may be rough |
-| Email | Taste dependant | There's no notable 3-pane client if you're into that |
+| Email | Competitive | There's Thunderbird and forks, but not much else that's really great |
 | Scanners | Possible hardware incompatibility | But the scanners that work, work very well |
 | Printers | Possible hardware incompatibility | But the printers that work, work very well |
 
