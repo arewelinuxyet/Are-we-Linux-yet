@@ -4,13 +4,13 @@
 Doing something because some dude on the internet told you, without understanding why isn't a great idea, but I digress.
 
 ### I have old hardware
-**Linux Mint Cinnamon Edition**: it's beginner-friendly enough, especially for people coming Windows. May not support the newest hardware.
+**[Linux Mint Cinnamon Edition](https://linuxmint.com/)**: it's beginner-friendly enough, especially for people coming Windows. May not support the newest hardware.
 
 ### I have the latest hardware
-**EndeavourOS**: Less beginner-friendly, but it has higher chances of supporting the newest hardware.
+**[EndeavourOS](https://endeavouros.com/)**: Less beginner-friendly, but it has higher chances of supporting the newest hardware.
 
 ### I'm using Apple Silicon
-**Asahi**: Only for Apple Silicon users, and the only real choice for Apple Silicon. It's highly experimental.
+**[Asahi](https://asahilinux.org/)**: Only for Apple Silicon users, and the only real choice for Apple Silicon. It's highly experimental.
 
 ## Index
 <!-- vim-markdown-toc GFM -->
@@ -29,13 +29,13 @@ Doing something because some dude on the internet told you, without understandin
 
 Might sound obvious: whoever has made into this page probably already knows that a distro is a "version" of "Linux", right? But this is actually one of the most underasked questions out there.
 
-Linux itself is a well defined software, a kernel to be exact, with its own well defined version numbers, so, what's the point of a distro?
+[Linux](https://kernel.org) itself is a well defined software, a kernel to be exact, with its own well defined version numbers, so, what's the point of a distro?
 
 Well, for starters, Linux is not a complete operating system: it's a kernel, the part of the OS that manages the system's resources and talks with the hardware, a part of the OS that the user should never think about, aside of some edge cases. For how much Linus might insist that the kernel is the OS, he's just plain wrong there. But still, a distro needs to ship a complete operating system.
 
-Historically, the GNU Project (short for "GNU is Not Unix") was the rest of the OS, and the GNU Project actually predates Linux, it's the responsible of the birth of the Free Software Movement, and indirectly of the Open Source Initiative, which is why several people insist that the OS shouldn't be called "Linux", but rather "GNU/Linux", there's even a reactionary group that calls the whole just "GNU" because, if Open Source people neglect to mention GNU, then it's fair game if Free Software people neglect to mention Linux. In actuality thanks to the success of bot the Open Source movement and Open Source, together with IBM software, via its subsidiary Red Hat, taking several important tasks in the OS, together with the GNU Project lacking manpower, the percentage of both GNU and Linux in the average distro is dwindling.
+Historically, the [GNU Project](https://gnu.org) (short for "GNU is Not Unix") was the rest of the OS, and the GNU Project actually predates Linux, it's the responsible of the birth of the [Free Software Movement](https://fsf.org), and indirectly of the [Open Source Initiative](https://opensource.org/), which is why several people insist that the OS shouldn't be called "Linux", but rather "GNU/Linux", there's even a reactionary group that calls the whole just "GNU" because, if Open Source people neglect to mention GNU, then it's fair game if Free Software people neglect to mention Linux. In actuality thanks to the success of bot the Open Source movement and Open Source, together with IBM software, via its subsidiary [Red Hat](https://redhat.com), taking several important tasks in the OS, together with the GNU Project lacking manpower, the percentage of both GNU and Linux in the average distro is dwindling.
 
-In other words, Linux is just one of the many disjointed and independently developed programs that together make a complete OS that people can't even agree on how it should be called. The job of a distro is take all those independent projects and package them in a way that's consistent, and thus, actually works. The distro also maintains its own builds of popular programs, to guarantee that those builds actually do work with the underlying system.
+In other words, Linux is just one of the many disjointed and independently developed programs that together make a complete OS that people can't even agree on how it should be called. The job of a distro is to take all those independent projects and package them in a way that's consistent, and thus, actually works. The distro also maintains its own builds of popular programs, to guarantee that those builds actually do work with the underlying system.
 
 ## What makes distros unique?
 
@@ -46,28 +46,28 @@ For the longest time, the biggest difference between the distros is, by far, the
 A traditional distro is exactly how a normal OS would work: you can change anything (as long as you have the file permissions) and once you make a change there's no trivial way to rollback, aside of having a backup. If other words, it's great for tinkering, but also full of footguns.
 
 Examples of traditional distros:
-- Debian
-- Arch
-- Mint
+- [Debian](https://debian.org)
+- [Arch](https://archlinux.org)
+- [Mint](https://linuxmint.com)
 
 Atomic (a.k.a "Immutable" or "Image-based") try to minimize the access to footguns by making modifying system files accidentally nearly impossible, at the cost of also making it very hard to do so intentionally. Atomic distros are generally not the power user's first pick, but they can provide painless experiences in the right circumstances, as well as the ability to easily deploy the same environment to countless computers.
 
 Examples of atomic distros:
-- Vanilla OS
-- Fedora Atomic Workstation series
-- SteamOS
+- [Vanilla OS](https://vanillaos.org/)
+- [Fedora Atomic Workstation series](https://fedoraproject.org/atomic-desktops/)
+- [SteamOS](https://store.steampowered.com/steamos)
 
 Reproducible distros allow the user to easily change system files, but also to easily rollback any changes. The catch is it's done by having to maintain a configuration file for the entire system, which always results in the same exact environment. Maintaining said configuration file can be a challenge and many users consider it to not be worth it, but the people who like reproducible distros really like reproducible distros.
 
 Examples of reproducible distros:
-- NyxOS
-- GNU Guix
+- [NixOS](https://nixos.org/)
+- [GNU Guix](https://guix.gnu.org/)
 
 ### Specificity
-Some distros, like Kali, ChimeraOS, SteamOS, or Tails, are built specifically for a single use case, at the detriment of pretty general usage. While they are generally good at their one goal, they're generally **not a good fit** as the main boot of a primary workstation.
+Some distros, like [Kali](https://www.kali.org/), [ChimeraOS](https://chimeraos.org/), SteamOS, or [Tails](https://tails.net/), are built specifically for a single use case, at the detriment of pretty general usage. While they are generally good at their one goal, they're generally **not a good fit** as the main boot of a primary workstation.
 
 ### Defaults
-Of course, every distro is going to ship some defaults to make a decent out of the box experience, except some distros, like Arch, Void, and Gentoo, that have as shipping as little default as possible as their entire point.
+Of course, every distro is going to ship some defaults to make a decent out of the box experience, except some distros, like Arch, [Void](https://voidlinux.org/), and [Gentoo](https://www.gentoo.org/), that have shipping the least amount of defaults as possible as their entire point.
 
 ### Some technical stuff
 
