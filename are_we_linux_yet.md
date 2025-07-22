@@ -43,7 +43,9 @@ This project is meant to keep track of the viability of the (GNU/)Linux desktop 
 | Touch/Gestures | Supported (Wayland) / Hack (X11) | |
 
 ### Note: X11 vs Wayland:
-Your graphical session can use one of two protocols to display itself: X11 and Wayland. X11 is about as old as computer graphics, and despite that it only has one effective implementation: X.Org, which nobody wants to develop, so it's unmaintained and de facto deprecated. Despite that, the much newer Wayland is still beta quality, and some popular environments only have at best experimental support for it.
+Your graphical session can use one of two protocols to display itself: X11 and Wayland. X11 is about as old as computer graphics, and despite that it only has two effective implementations: X.Org, is unmaintained and de facto deprecated, and XLibre, which has been forked from X.Org and promises to add new feature while not breaking compatibility, but the project is still young and it's controversial for entirely non-technical reasons.
+
+Meanwhile, the much newer Wayland protocol is still beta quality, will likely never add basic features that are available in every other platform, it has sever implementations, each supporting a different subset of Wayland with still no agreement to what a minimum expected feature set looks like, creating a vast fragmentation, and some popular environments only have at best experimental support for it.
 
 
 ## Misc Graphics Things
