@@ -155,6 +155,8 @@ WINE (short for "WINE Is Not an Emulator") is the program that allows Windows so
 #### GNOME
 GNOME on Wayland does not support drawing borders, drop shadows, title bars, etc. (or, in short "Decorations"): it expects the window to draw them by itself (client-side decorations). As you may imagine, this "design choice" (read "Obvious bug they won't fix no matter how much people complain at their doorstep") is controversial because it leads to windows that do not support client-side decorations being drawn without any decorations. GNOME is also a desktop that very much lets perfect be the enemy of good (and thus the main responsible for the slowness of Wayland's development).
 
+The X11 session has been dropped from GNOME 49.
+
 ### I want to switch, what should I keep in mind?
 
 #### Do distros matter? Which one is the best?
