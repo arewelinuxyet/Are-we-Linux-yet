@@ -147,7 +147,7 @@ WINE (short for "WINE Is Not an Emulator") is the program that allows Windows so
 ### General Notes
 
 #### NVIDIA
-- Starting from Mesa 25.1, NVK is enabled by default, making installing the proprietary drivers not as important.
+- Starting from Mesa 25.1, NVK is enabled by default, making installing the proprietary drivers not as important, although performance as still lackluster.
 - It's on your distro to decide if to ship the NVIDIA proprietary drivers or not. If it's important to you, pick a distro that ships them: building them yourself takes a lot of time and it's error prone.
 - There may still be graphical glitches on Wayland with the proprietary drivers, but they've been mostly fixed as of the 570 driver, most of those fixes happened between the 555 and 560 drivers.
 
