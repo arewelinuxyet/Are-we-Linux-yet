@@ -170,6 +170,6 @@ And even if moving from Mac to (GNU/)Linux may have less technical challenges (u
 #### Window Manager... Desktop Environment... Compositor...
 The terminology is different whether we're talking about an X11 session or a Wayland one.
 
-On X11, you have a graphical server (X.Org), which is the part that handles the low level things you don't want to think about, a window manager, which simply keeps track of where the windows are and how big they are, and optionally a compositor, which handles graphical effects and animations. On Wayland, the server, the window manager, and the compositor are merged in a single program, simply called Wayland compositor.
+On X11, you have a graphical server (XLibre or X.Org), which is the part that handles the low level things you don't want to think about, a window manager, which simply keeps track of where the windows are and how big they are, and optionally a compositor, which handles graphical effects and animations. On Wayland, the server, the window manager, and the compositor are merged in a single program, simply called Wayland compositor.
 
 A Desktop Environment (DE for short) is simply a bundle of a Wayland compositor/X11 window manager, some sort of system UI a.k.a shell (you know Window's start menu, the taskbar, and the Windows notifications? Basically, that's the shell), and an application suite.
