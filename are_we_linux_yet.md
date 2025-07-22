@@ -40,7 +40,7 @@ This project is meant to keep track of the viability of the (GNU/)Linux desktop 
 | Web Browsing | Comparable to Windows | |
 | Watching Streams | Comparable to Windows | May be gatekept by vendors, but the ones who do may gatekeep everything that isn't a phone or a TV anyway |
 | MIME Types | Supported | If you want to open a MIME type in a terminal application, there's still no accepted standard way to pick the terminal emulator, the most common MIME openers use and hardcoded list |
-| Touch/Gestures | Supported (Wayland) / Hack (X11) | |
+| Touch/Gestures | Supported (most DEs have better support on Wayland than on X11) | |
 
 ### Note: X11 vs Wayland:
 Your graphical session can use one of two protocols to display itself: X11 and Wayland. X11 is about as old as computer graphics, and despite that it only has two effective implementations: X.Org, is unmaintained and de facto deprecated, and XLibre, which has been forked from X.Org and promises to add new feature while not breaking compatibility, but the project is still young and it's controversial for entirely non-technical reasons.
@@ -53,9 +53,10 @@ Meanwhile, the much newer Wayland protocol is still beta quality, will likely ne
 | Use Case | Readiness | Notes |
 | :------- | :---------| :-----|
 | Variable Refresh Rate | Supported | |
-| Mixed Refresh Rate | Supported (Wayland) / Not planned (X11) | |
+| No Screen Tearing | Default (Wayland/XLibre) / Supported (X.Org) | |
+| Mixed Refresh Rate | Supported (Wayland) / Eventually (XLibre) / Not planned (X.Org) | |
 | Color Management | Supported | Implementations are still being rolled out on Wayland |
-| HDR | Supported (Wayland) / Not planned (X11) | Implementations are still being rolled out on Wayland |
+| HDR | Supported (Wayland) / Eventually (XLibre) / Not planned (X.Org) | Implementations are still being rolled out on Wayland |
 | Lock Screen | Secure (Wayland) / Hack (X11) | |
 | Fractional Scaling | Mostly works (Wayland) / Bad (X11) | |
 | Screen Saver | Theoretical (Wayland) / Supported (X11) | It's possible to make a screen saver on Wayland by using the same protocol as the lock screen, but nobody seems to care enough to actually do it |
