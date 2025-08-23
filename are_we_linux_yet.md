@@ -138,8 +138,9 @@ Meanwhile, the much newer [Wayland](https://wayland.app) protocol is still beta 
 | :------- | :---------| :-----|
 | Programming | Way better than Windows | Except is you're targeting Windows or the Apple ecosystem, for obvious reasons |
 | Slicing | Comparable to Windows | |
+| 2D CAD | May be good enough | [QCAD](https://www.qcad.org/) and [LibreCAD](https://librecad.org/) exist |
 | MATLAB | Needs work | [GNU Octave](https://octave.org/) is a thing, but it's not a perfect drop-in replacement |
-| CAD | Unviable | [FreeCAD](https://www.freecad.org/) still needs a lot of work before it does anything good enough, [OpenSCAD](https://openscad.org/) is cool concept, but little more than a toy |
+| 3D CAD | Unviable | [FreeCAD](https://www.freecad.org/) still needs a lot of work before it does anything good enough, [OpenSCAD](https://openscad.org/) is cool concept, but little more than a toy |
 | Random Scientific Program | Probably unsupported | |
 
 
